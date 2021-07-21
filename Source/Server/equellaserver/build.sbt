@@ -222,7 +222,7 @@ libraryDependencies ++= Seq(
   "org.dspace"         % "cql-java"    % "1.0",
   //  "org.dspace.oclc" % "oclc-srw" % "1.0.20080328",
   "org.omegat"                      % "jmyspell-core"                  % "1.0.0-beta-2",
-  "org.freemarker"                  % "freemarker"                     % "2.3.23",
+  "org.freemarker"                  % "freemarker"                     % "2.3.31",
   "com.github.equella.legacy"       % "hurl"                           % "1.1",
   "org.jboss.resteasy"              % "resteasy-jaxrs"                 % RestEasyVersion,
   "org.jboss.spec.javax.annotation" % "jboss-annotations-api_1.3_spec" % "2.0.1.Final",
