@@ -8,7 +8,7 @@ libraryDependencies ++= Seq(
   "org.springframework"    % "spring-web"      % springVersion,
   "org.springframework"    % "spring-aop"      % springVersion,
   "org.springframework"    % "spring-context"  % springVersion,
-  "com.fifesoft"           % "rsyntaxtextarea" % "1.5.2",
+  "com.fifesoft"           % "rsyntaxtextarea" % "3.1.3",
   "com.miglayout"          % "miglayout-swing" % "4.2",
   xstreamDep
 )
