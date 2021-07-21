@@ -41,7 +41,7 @@ public class FacetedSearchClassification {
 
   @JoinColumn(nullable = false)
   @ManyToOne(fetch = FetchType.LAZY)
-  @Index(name = "facetSearchClassificationInstitutionIndex")
+  @Index(name = "FSCInstitutionIndex")
   @XStreamOmitField
   private Institution institution;
 
