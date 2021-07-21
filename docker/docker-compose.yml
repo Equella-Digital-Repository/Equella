@@ -55,7 +55,7 @@ services:
       - POSTGRES_PASSWORD=$OEQ_DATABASE_PASSWORD
 
   traefik:
-    image: traefik:v1.7.28
+    image: traefik:v1.7.30
     restart: always
     command: --api --docker
     ports:
