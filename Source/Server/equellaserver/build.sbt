@@ -206,8 +206,8 @@ libraryDependencies ++= Seq(
   "org.apache.tomcat"           % "tomcat-util"            % TomcatVersion,
   "org.apache.tomcat"           % "tomcat-util-scan"       % TomcatVersion,
   "org.apache.tomcat"           % "tomcat-ssi"             % TomcatVersion,
-  "org.apache.ws.commons.axiom" % "axiom-api"              % "1.2.15",
-  "org.apache.ws.commons.axiom" % "axiom-impl"             % "1.2.15",
+  "org.apache.ws.commons.axiom" % "axiom-api"              % "1.3.0",
+  "org.apache.ws.commons.axiom" % "axiom-impl"             % "1.3.0",
   "org.apache.ws.security"      % "wss4j"                  % "1.6.19",
   "org.apache.zookeeper"        % "zookeeper"              % "3.4.6" excludeAll (
     ExclusionRule(organization = "org.slf4j",
